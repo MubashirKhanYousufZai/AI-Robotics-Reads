@@ -1,7 +1,28 @@
 {
-  "extends": ["next", "next/core-web-vitals"],
+  "root": true,
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "react", "react-hooks"],
   "rules": {
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unused-vars": "warn"
+    "prettier/prettier": [
+      "error",
+      {
+        "semi": true,
+        "singleQuote": false,
+        "printWidth": 100,
+        "tabWidth": 2
+      }
+    ]
   }
 }
