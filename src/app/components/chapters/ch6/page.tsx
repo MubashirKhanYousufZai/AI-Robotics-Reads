@@ -17,23 +17,30 @@ export default function Chapter6() {
           {/* Paragraph 1 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn">
             <p className="leading-relaxed text-gray-700 text-justify">
-              This chapter explores how humanoids learn skills and interact with objects.
-              <strong className="text-indigo-600">Reinforcement Learning (RL)</strong> in robotics
-              enables robots to learn optimal policies through trial and error within a Markov
-              Decision Process (MDP). We introduce{" "}
-              <strong className="text-purple-600">Policy Gradient methods</strong> such as PPO and
-              A2C for locomotion and manipulation tasks.
+              This chapter explores how humanoids learn skills and interact with
+              objects.
+              <strong className="text-indigo-600">
+                Reinforcement Learning (RL)
+              </strong>{" "}
+              in robotics enables robots to learn optimal policies through trial
+              and error within a Markov Decision Process (MDP). We introduce{" "}
+              <strong className="text-purple-600">
+                Policy Gradient methods
+              </strong>{" "}
+              such as PPO and A2C for locomotion and manipulation tasks.
             </p>
           </div>
 
           {/* Paragraph 2 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-200">
             <p className="leading-relaxed text-gray-700 text-justify">
-              <strong className="text-indigo-600">Deep Q-Networks (DQN)</strong> are used to learn
-              discrete actions for robot tasks, providing value-based reinforcement learning.
-              Simulation environments allow safe and fast experimentation. Transfer to physical
-              robots requires bridging the <strong className="text-purple-600">Sim2Real gap</strong>{" "}
-              using domain randomization and calibration.
+              <strong className="text-indigo-600">Deep Q-Networks (DQN)</strong>{" "}
+              are used to learn discrete actions for robot tasks, providing
+              value-based reinforcement learning. Simulation environments allow
+              safe and fast experimentation. Transfer to physical robots
+              requires bridging the{" "}
+              <strong className="text-purple-600">Sim2Real gap</strong> using
+              domain randomization and calibration.
             </p>
           </div>
 
@@ -41,33 +48,40 @@ export default function Chapter6() {
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-400">
             <p className="leading-relaxed text-gray-700 text-justify">
               For physical interaction,{" "}
-              <strong className="text-purple-600">grasping and dexterity</strong> are essential.
-              Topics include Grasp Quality Metrics, Antipodal Grasping, and non-prehensile
-              manipulation.
-              <strong className="text-indigo-600">Tactile sensing</strong> allows the robot to
-              adjust grip based on object texture and force feedback, enabling precise and safe
-              manipulation.
+              <strong className="text-purple-600">
+                grasping and dexterity
+              </strong>{" "}
+              are essential. Topics include Grasp Quality Metrics, Antipodal
+              Grasping, and non-prehensile manipulation.
+              <strong className="text-indigo-600">Tactile sensing</strong>{" "}
+              allows the robot to adjust grip based on object texture and force
+              feedback, enabling precise and safe manipulation.
             </p>
           </div>
 
           {/* Paragraph 4 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-600">
             <p className="leading-relaxed text-gray-700 text-justify">
-              <strong className="text-purple-600">Learning from Demonstration (LfD)</strong> allows
-              robots to imitate human movements by mapping demonstrations to joint commands.
-              Advanced methods may use Generative Adversarial Networks (GANs) to create robust
-              policies and adapt learned behaviors to variations in objects, tasks, or environments.
+              <strong className="text-purple-600">
+                Learning from Demonstration (LfD)
+              </strong>{" "}
+              allows robots to imitate human movements by mapping demonstrations
+              to joint commands. Advanced methods may use Generative Adversarial
+              Networks (GANs) to create robust policies and adapt learned
+              behaviors to variations in objects, tasks, or environments.
             </p>
           </div>
 
           {/* Paragraph 5 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-800">
             <p className="leading-relaxed text-gray-700 text-justify">
-              Integration of learning and manipulation enables humanoids to perform autonomous,
-              complex tasks in real-world environments. Combining perception, planning, RL, and LfD
-              ensures robots can adapt to new situations, manipulate objects efficiently, and
-              improve their skills over time. Mastery of these concepts is crucial for building
-              intelligent, physically capable humanoid robots.
+              Integration of learning and manipulation enables humanoids to
+              perform autonomous, complex tasks in real-world environments.
+              Combining perception, planning, RL, and LfD ensures robots can
+              adapt to new situations, manipulate objects efficiently, and
+              improve their skills over time. Mastery of these concepts is
+              crucial for building intelligent, physically capable humanoid
+              robots.
             </p>
           </div>
         </div>

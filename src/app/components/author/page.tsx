@@ -31,12 +31,14 @@ export default function AuthorSection() {
             </a>
           </h1>
           <p className="leading-relaxed text-gray-700 text-lg md:text-xl mb-6">
-            I am Mubashir Khan, a web developer and tech enthusiast from Karachi, trained under the
-            Governor Sindh IT Initiative Program. I wrote this book with the help of AI (Gemini) as
-            part of my hackathon project, aiming to simplify the complex fields of Artificial
-            Intelligence and Humanoid Robotics. My goal is to make these topics accessible to
-            students and beginners, providing a clear understanding of how intelligent systems and
-            humanoid machines work together, and to inspire readers to explore and create in this
+            I am Mubashir Khan, a web developer and tech enthusiast from
+            Karachi, trained under the Governor Sindh IT Initiative Program. I
+            wrote this book with the help of AI (Gemini) as part of my hackathon
+            project, aiming to simplify the complex fields of Artificial
+            Intelligence and Humanoid Robotics. My goal is to make these topics
+            accessible to students and beginners, providing a clear
+            understanding of how intelligent systems and humanoid machines work
+            together, and to inspire readers to explore and create in this
             exciting field.
           </p>
           <a

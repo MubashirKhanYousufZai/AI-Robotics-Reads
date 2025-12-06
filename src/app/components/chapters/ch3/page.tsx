@@ -17,13 +17,17 @@ export default function Chapter3() {
           {/* Paragraph 1 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn">
             <p className="leading-relaxed text-gray-700 text-justify">
-              For a humanoid to operate effectively, it must understand its surroundings, which
-              requires <strong className="text-indigo-600">Advanced Perception</strong>. This
-              chapter begins with{" "}
-              <strong className="text-purple-600">Computer Vision for 3D Worlds</strong>, covering
-              Monocular, Stereo, and Depth (LiDAR/RGB-D) sensing technologies. Robots use these
-              methods to perceive spatial structures, identify objects, and recognize obstacles in
-              dynamic environments.
+              For a humanoid to operate effectively, it must understand its
+              surroundings, which requires{" "}
+              <strong className="text-indigo-600">Advanced Perception</strong>.
+              This chapter begins with{" "}
+              <strong className="text-purple-600">
+                Computer Vision for 3D Worlds
+              </strong>
+              , covering Monocular, Stereo, and Depth (LiDAR/RGB-D) sensing
+              technologies. Robots use these methods to perceive spatial
+              structures, identify objects, and recognize obstacles in dynamic
+              environments.
             </p>
           </div>
 
@@ -31,10 +35,12 @@ export default function Chapter3() {
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-200">
             <p className="leading-relaxed text-gray-700 text-justify">
               We explore Image Processing techniques such as{" "}
-              <strong className="text-indigo-600">Feature Extraction</strong> and{" "}
-              <strong className="text-purple-600">Image Segmentation</strong>, which allow robots to
-              detect and classify objects. Convolutional Neural Networks (CNNs) and modern vision
-              transformers enable robust perception under varying lighting, occlusions, and
+              <strong className="text-indigo-600">Feature Extraction</strong>{" "}
+              and{" "}
+              <strong className="text-purple-600">Image Segmentation</strong>,
+              which allow robots to detect and classify objects. Convolutional
+              Neural Networks (CNNs) and modern vision transformers enable
+              robust perception under varying lighting, occlusions, and
               environmental conditions.
             </p>
           </div>
@@ -46,9 +52,10 @@ export default function Chapter3() {
               <strong className="text-indigo-600">
                 Simultaneous Localization and Mapping (SLAM)
               </strong>
-              . Algorithms include Iterative Closest Point (ICP), Extended Kalman Filter (EKF-SLAM),
-              Graph-SLAM, and Visual Odometry, enabling robots to build maps while tracking their
-              position in real time.
+              . Algorithms include Iterative Closest Point (ICP), Extended
+              Kalman Filter (EKF-SLAM), Graph-SLAM, and Visual Odometry,
+              enabling robots to build maps while tracking their position in
+              real time.
             </p>
           </div>
 
@@ -56,21 +63,24 @@ export default function Chapter3() {
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-600">
             <p className="leading-relaxed text-gray-700 text-justify">
               Because no single sensor is perfect,{" "}
-              <strong className="text-purple-600">Sensor Fusion</strong> techniques combine data
-              from visual, inertial (IMU), and tactile sensors. Kalman Filters, Extended Kalman
-              Filters, and complementary fusion methods help produce accurate and robust state
-              estimates for navigation, manipulation, and balance in complex environments.
+              <strong className="text-purple-600">Sensor Fusion</strong>{" "}
+              techniques combine data from visual, inertial (IMU), and tactile
+              sensors. Kalman Filters, Extended Kalman Filters, and
+              complementary fusion methods help produce accurate and robust
+              state estimates for navigation, manipulation, and balance in
+              complex environments.
             </p>
           </div>
 
           {/* Paragraph 5 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-800">
             <p className="leading-relaxed text-gray-700 text-justify">
-              Finally, we explore how perception integrates with decision-making and control.
-              Advanced perception systems allow humanoids to anticipate human actions, adapt to
-              dynamic obstacles, and execute tasks with precision. Mastering these techniques
-              prepares students to design autonomous robots that can navigate, interact, and perform
-              complex tasks reliably in real-world scenarios.
+              Finally, we explore how perception integrates with decision-making
+              and control. Advanced perception systems allow humanoids to
+              anticipate human actions, adapt to dynamic obstacles, and execute
+              tasks with precision. Mastering these techniques prepares students
+              to design autonomous robots that can navigate, interact, and
+              perform complex tasks reliably in real-world scenarios.
             </p>
           </div>
         </div>

@@ -17,12 +17,19 @@ export default function Chapter5() {
           {/* Paragraph 1 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn">
             <p className="leading-relaxed text-gray-700 text-justify">
-              This chapter focuses on AI-driven humanoid movement. Motion begins with{" "}
-              <strong className="text-indigo-600">Classical Path Planning</strong>, navigating the
-              robots Configuration Space (C-space).
-              <strong className="text-purple-600">Sampling-based planners</strong> (RRT, PRM) and{" "}
-              <strong className="text-indigo-600">search-based planners</strong> (A*) ensure safe
-              movement around obstacles for arms, legs, or torso.
+              This chapter focuses on AI-driven humanoid movement. Motion begins
+              with{" "}
+              <strong className="text-indigo-600">
+                Classical Path Planning
+              </strong>
+              , navigating the robots Configuration Space (C-space).
+              <strong className="text-purple-600">
+                Sampling-based planners
+              </strong>{" "}
+              (RRT, PRM) and{" "}
+              <strong className="text-indigo-600">search-based planners</strong>{" "}
+              (A*) ensure safe movement around obstacles for arms, legs, or
+              torso.
             </p>
           </div>
 
@@ -30,10 +37,14 @@ export default function Chapter5() {
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-200">
             <p className="leading-relaxed text-gray-700 text-justify">
               Bipedal locomotion is the biggest challenge.{" "}
-              <strong className="text-purple-600">Zero Moment Point (ZMP)</strong> defines the
-              center of pressure to maintain balance. Robots contrast dynamic walking with
-              quasi-static walking.{" "}
-              <strong className="text-indigo-600">Central Pattern Generators (CPGs)</strong>{" "}
+              <strong className="text-purple-600">
+                Zero Moment Point (ZMP)
+              </strong>{" "}
+              defines the center of pressure to maintain balance. Robots
+              contrast dynamic walking with quasi-static walking.{" "}
+              <strong className="text-indigo-600">
+                Central Pattern Generators (CPGs)
+              </strong>{" "}
               generate rhythmic motion patterns for legs and arms.
             </p>
           </div>
@@ -41,9 +52,12 @@ export default function Chapter5() {
           {/* Paragraph 3 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-400">
             <p className="leading-relaxed text-gray-700 text-justify">
-              <strong className="text-purple-600">Whole-Body Control (WBC)</strong> allows
-              simultaneous management of all joints, prioritizing tasks such as balance over
-              end-effector accuracy. This involves optimization strategies and trade-offs between{" "}
+              <strong className="text-purple-600">
+                Whole-Body Control (WBC)
+              </strong>{" "}
+              allows simultaneous management of all joints, prioritizing tasks
+              such as balance over end-effector accuracy. This involves
+              optimization strategies and trade-offs between{" "}
               <strong className="text-indigo-600">torque control</strong> and{" "}
               <strong className="text-purple-600">position control</strong>.
             </p>
@@ -53,20 +67,22 @@ export default function Chapter5() {
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-600">
             <p className="leading-relaxed text-gray-700 text-justify">
               Locomotion planning is enhanced with{" "}
-              <strong className="text-indigo-600">terrain perception</strong> using sensors such as
-              LiDAR and depth cameras. Humanoids predict foot placement and adapt step length and
-              velocity for rough or dynamic surfaces. Integration with balance control ensures
-              robust performance even during unexpected perturbations.
+              <strong className="text-indigo-600">terrain perception</strong>{" "}
+              using sensors such as LiDAR and depth cameras. Humanoids predict
+              foot placement and adapt step length and velocity for rough or
+              dynamic surfaces. Integration with balance control ensures robust
+              performance even during unexpected perturbations.
             </p>
           </div>
 
           {/* Paragraph 5 */}
           <div className="p-6 bg-white rounded-xl shadow-lg transform transition-all hover:scale-105 hover:shadow-2xl animate-fadeIn delay-800">
             <p className="leading-relaxed text-gray-700 text-justify">
-              Finally, motion and locomotion integrate perception, planning, and control into
-              cohesive behavior. AI algorithms allow humanoids to walk, run, climb stairs, and
-              manipulate objects in complex environments. Mastery of these techniques equips
-              students to build autonomous robots capable of safe, adaptive, and goal-directed
+              Finally, motion and locomotion integrate perception, planning, and
+              control into cohesive behavior. AI algorithms allow humanoids to
+              walk, run, climb stairs, and manipulate objects in complex
+              environments. Mastery of these techniques equips students to build
+              autonomous robots capable of safe, adaptive, and goal-directed
               movement in real-world scenarios.
             </p>
           </div>

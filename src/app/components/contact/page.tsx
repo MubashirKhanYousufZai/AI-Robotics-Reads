@@ -4,7 +4,8 @@ export default function ContactSection() {
   const handleWhatsAppSend = () => {
     const name = (document.getElementById("name") as HTMLInputElement).value;
     const email = (document.getElementById("email") as HTMLInputElement).value;
-    const message = (document.getElementById("message") as HTMLTextAreaElement).value;
+    const message = (document.getElementById("message") as HTMLTextAreaElement)
+      .value;
 
     const phone = "923152669152";
     const text = `👤 Name: ${name}  📧 Email: ${email}  💬 Message: ${message}`;
@@ -27,20 +28,30 @@ export default function ContactSection() {
           ></iframe>
 
           <div className="relative bg-white p-6 rounded-lg shadow-md m-6 max-w-xs">
-            <h2 className="text-gray-700 text-sm font-semibold tracking-widest">ADDRESS</h2>
-            <p className="mt-2 text-gray-600">Governor House Karachi, Aiwan-e-Sadar, Civil Lines</p>
+            <h2 className="text-gray-700 text-sm font-semibold tracking-widest">
+              ADDRESS
+            </h2>
+            <p className="mt-2 text-gray-600">
+              Governor House Karachi, Aiwan-e-Sadar, Civil Lines
+            </p>
 
-            <h2 className="text-gray-700 text-sm font-semibold tracking-widest mt-4">EMAIL</h2>
+            <h2 className="text-gray-700 text-sm font-semibold tracking-widest mt-4">
+              EMAIL
+            </h2>
             <p className="text-indigo-600">mubashirmpa2008@gmail.com</p>
 
-            <h2 className="text-gray-700 text-sm font-semibold tracking-widest mt-4">PHONE</h2>
+            <h2 className="text-gray-700 text-sm font-semibold tracking-widest mt-4">
+              PHONE
+            </h2>
             <p className="text-gray-600">+92 315 2669152</p>
           </div>
         </div>
 
         {/* Contact Form */}
         <div className="lg:w-1/3 md:w-1/2 w-full bg-white rounded-xl shadow-xl p-8 border border-gray-200">
-          <h2 className="text-gray-900 text-2xl font-semibold mb-2">Contact Us</h2>
+          <h2 className="text-gray-900 text-2xl font-semibold mb-2">
+            Contact Us
+          </h2>
           <p className="text-gray-600 mb-6">
             Have any questions? Feel free to reach out — we are here to help.
           </p>

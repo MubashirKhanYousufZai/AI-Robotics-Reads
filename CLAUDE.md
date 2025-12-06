@@ -1,6 +1,7 @@
 # AI & Robotics Book Web App Instructions
 
 ## Overview
+
 This web application is an interactive digital version of the **AI & Robotics book**. It provides:
 
 - Easy-to-read chapters with detailed explanations.
@@ -12,11 +13,11 @@ This web application is an interactive digital version of the **AI & Robotics bo
 
 ## Navigation
 
-1. **Home / Landing Page**  
+1. **Home / Landing Page**
    - Provides an introduction to the book.
    - Lists all chapters with clickable cards.
 
-2. **Chapters**  
+2. **Chapters**
    - Click on a chapter card to open its detailed section.
    - Each chapter contains multiple paragraphs with key concepts highlighted.
    - Interactive animations are applied for smooth reading experience.
@@ -35,7 +36,7 @@ This web application is an interactive digital version of the **AI & Robotics bo
 
 ## Using the Book Helper Agent
 
-The **Book Helper Agent** assists with questions about the book.  
+The **Book Helper Agent** assists with questions about the book.
 
 ### How to Use:
 
@@ -76,8 +77,8 @@ The **Book Helper Agent** assists with questions about the book.
 
 For any issues, bugs, or feedback, contact:  
 **Email:** mubashirmpa2008@gmail.com  
-**Phone:** 03152669152  
+**Phone:** 03152669152
 
 ---
 
-*Version 1.0 — Interactive AI & Robotics Book Web App*
+_Version 1.0 — Interactive AI & Robotics Book Web App_

@@ -12,24 +12,28 @@ export default function AboutSection() {
             About AI & Humanoid Robotics
           </h1>
           <p className="leading-relaxed text-lg text-gray-700 mb-6">
-            Artificial Intelligence (AI) and Humanoid Robotics are two closely intertwined fields
-            that aim to create machines capable of performing tasks with human-like intelligence and
-            physical ability. AI provides the cognitive foundation for humanoids, enabling them to
-            perceive their environment, make decisions, learn from experience, and interact
-            naturally with humans.
+            Artificial Intelligence (AI) and Humanoid Robotics are two closely
+            intertwined fields that aim to create machines capable of performing
+            tasks with human-like intelligence and physical ability. AI provides
+            the cognitive foundation for humanoids, enabling them to perceive
+            their environment, make decisions, learn from experience, and
+            interact naturally with humans.
           </p>
           <p className="leading-relaxed text-lg text-gray-700 mb-6">
-            Core AI techniques such as computer vision, natural language processing, reinforcement
-            learning, and path planning allow robots to understand their surroundings, recognize
-            objects and human emotions, and plan complex movements. Humanoid robotics, on the other
-            hand, focuses on the mechanical and control aspects, including bipedal locomotion, joint
-            coordination, sensor integration, and dexterous manipulation.
+            Core AI techniques such as computer vision, natural language
+            processing, reinforcement learning, and path planning allow robots
+            to understand their surroundings, recognize objects and human
+            emotions, and plan complex movements. Humanoid robotics, on the
+            other hand, focuses on the mechanical and control aspects, including
+            bipedal locomotion, joint coordination, sensor integration, and
+            dexterous manipulation.
           </p>
           <p className="leading-relaxed text-lg text-gray-700">
-            By combining AI with advanced robotic design, humanoids can navigate unstructured
-            environments, perform social interactions safely, and execute physical tasks with
-            precision. Together, these fields are driving the development of intelligent, autonomous
-            machines that can assist, collaborate with, and enhance human life in diverse domains.
+            By combining AI with advanced robotic design, humanoids can navigate
+            unstructured environments, perform social interactions safely, and
+            execute physical tasks with precision. Together, these fields are
+            driving the development of intelligent, autonomous machines that can
+            assist, collaborate with, and enhance human life in diverse domains.
           </p>
         </div>
 
